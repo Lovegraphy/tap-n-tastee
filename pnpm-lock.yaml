@@ -101,6 +101,9 @@ importers:
       nodemailer:
         specifier: ^6.9.16
         version: 6.9.16
+      nx:
+        specifier: ^20.3.0
+        version: 20.3.0(@swc-node/register@1.9.2(@swc/core@1.5.29(@swc/helpers@0.5.15))(@swc/types@0.1.17)(typescript@5.5.4))(@swc/core@1.5.29(@swc/helpers@0.5.15))
       passport:
         specifier: ^0.7.0
         version: 0.7.0
@@ -306,9 +309,6 @@ importers:
       jsdom:
         specifier: ~22.1.0
         version: 22.1.0
-      nx:
-        specifier: ^20.3.0
-        version: 20.3.0(@swc-node/register@1.9.2(@swc/core@1.5.29(@swc/helpers@0.5.15))(@swc/types@0.1.17)(typescript@5.5.4))(@swc/core@1.5.29(@swc/helpers@0.5.15))
       postcss:
         specifier: ^8.4.49
         version: 8.4.49
