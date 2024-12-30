@@ -7,10 +7,10 @@
     "start:backend": "nx serve tap-n-taste-api --port 3000",
     "start:admin": "nx serve t-admin --port 4200",
     "start:scanning": "nx serve t-scanning --port 4300",
-    "build": "pnpm install && nx build",  
+    "build": "pnpm install && nx build",
     "build:backend": "pnpm install && nx build tap-n-taste-api",
     "build:admin": "pnpm install && nx build t-admin",
-    "build:scanning": "pnpm install && nx build t-scanning", 
+    "build:scanning": "pnpm install && nx build t-scanning",
     "test": "nx test"
   },
   "private": true,
@@ -21,7 +21,7 @@
     "@hookform/resolvers": "^3.9.1",
     "@mui/icons-material": "^6.2.0",
     "@mui/material": "^6.2.0",
-    "@mui/styled-engine-sc": "^6.2.0",
+    "@mui/styled-engine-sc": "^6.3.0",
     "@mui/x-data-grid": "^7.23.3",
     "@nrwl/node": "^19.8.4",
     "axios": "^1.6.0",
@@ -46,6 +46,7 @@
     "multer": "^1.4.5-lts.1",
     "multer-storage-cloudinary": "^4.0.0",
     "nodemailer": "^6.9.16",
+    "nx": "^20.3.0",
     "passport": "^0.7.0",
     "passport-google-oauth20": "^2.0.0",
     "react": "18.3.1",
@@ -60,11 +61,10 @@
     "react-toastify": "^10.0.6",
     "socket.io": "^4.8.1",
     "socket.io-client": "^4.8.1",
-    "styled-components": "5.3.6",
+    "styled-components": "^6.1.13",
     "twilio": "^5.4.0",
     "uuid": "^11.0.3",
-    "zod": "^3.24.1",
-    "nx": "^20.3.0"  
+    "zod": "^3.24.1"
   },
   "devDependencies": {
     "@babel/core": "^7.14.5",
