@@ -1,5 +1,5 @@
 {
     "buildCommand": "nx build t-scanning",
-    "outputDirectory": "dist/apps/t-scanning",
+    "outputDirectory": "dist/t-scanning",
     "installCommand": "pnpm install"
   }
